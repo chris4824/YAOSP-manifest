@@ -11,7 +11,7 @@ To get started with YAOSP, you'll need to get familiar with
 
 To initialize your local repository using the YAOSP trees, use this command:
 
-	repo init -u git://github.com/YAOSP/manifest.git -b YAOSP-MM-6.0.1_r24
+	repo init -u git://github.com/chris4824/YAOSP-manifest.git -b YAOSP-MM-6.0.1_r24
 
 
 Then sync up with this command:
