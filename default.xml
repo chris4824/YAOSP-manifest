@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="manifest"
-           fetch="file:///home/chris/android/github_trackers" />
   <remote  name="home"
            fetch="file:///home/chris/android/github_trackers/m-repos/hammerhead" />
   <remote  name="aosp"
@@ -33,8 +31,6 @@
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -52,17 +48,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <!--project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" /-->
-  <!--project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /-->
-  <project path="device/huawei/angler" name="YAOSP/device_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r24" />
-  <!--project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" /-->
-  <!--project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" /-->
-  <project path="device/lge/hammerhead" name="YAOSP/device_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
-  <!--project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" /-->
-  <!--project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" /-->
-  <project path="device/moto/shamu-kernel" name="YAOSP/device_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -509,7 +494,6 @@
 
   <!-- Additional repos for YAOSP -->
   <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r24" />
-  <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
   <project name="hammerhead" path="device/lge/hammerhead" remote="home" revision="tesla" />
   <project name="vendor_lge" path="vendor/lge" remote="home" revision="mm6.0" />
 
